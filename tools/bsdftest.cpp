@@ -9,7 +9,7 @@
 #include "memory.h"
 #include "api.h"
 #include "paramset.h"
-#include "shapes/disk.h"
+#include "disk.h"
 
 using namespace pbrt;
 

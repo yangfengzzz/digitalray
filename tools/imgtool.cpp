@@ -15,7 +15,7 @@
 #include "spectrum.h"
 #include "parallel.h"
 extern "C" {
-#include "ext/ArHosekSkyModel.h"
+#include "../ext/ArHosekSkyModel.h"
 }
 #include <glog/logging.h>
 
