@@ -32,7 +32,7 @@
 
 
 // shapes/curve.cpp*
-#include "shapes/curve.h"
+#include "curve.h"
 #include "paramset.h"
 #include "stats.h"
 

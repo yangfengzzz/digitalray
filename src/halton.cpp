@@ -32,7 +32,7 @@
 
 
 // samplers/halton.cpp*
-#include "samplers/halton.h"
+#include "halton.h"
 #include "paramset.h"
 #include "rng.h"
 

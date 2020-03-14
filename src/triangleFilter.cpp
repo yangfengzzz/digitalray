@@ -32,7 +32,7 @@
 
 
 // filters/triangle.cpp*
-#include "filters/triangle.h"
+#include "triangleFilter.h"
 #include "paramset.h"
 
 namespace pbrt {

@@ -32,7 +32,7 @@
 
 
 // materials/substrate.cpp*
-#include "materials/substrate.h"
+#include "substrate.h"
 #include "spectrum.h"
 #include "reflection.h"
 #include "paramset.h"

@@ -32,8 +32,8 @@
 
 
 // shapes/loopsubdiv.cpp*
-#include "shapes/loopsubdiv.h"
-#include "shapes/triangle.h"
+#include "loopsubdiv.h"
+#include "triangle.h"
 #include "paramset.h"
 #include <set>
 #include <map>

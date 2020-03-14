@@ -32,7 +32,7 @@
 
 
 // shapes/cone.cpp*
-#include "shapes/cone.h"
+#include "cone.h"
 #include "paramset.h"
 #include "efloat.h"
 #include "stats.h"

@@ -32,7 +32,7 @@
 
 
 // samplers/random.cpp*
-#include "samplers/random.h"
+#include "random.h"
 #include "paramset.h"
 #include "sampling.h"
 #include "stats.h"

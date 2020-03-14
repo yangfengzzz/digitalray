@@ -32,7 +32,7 @@
 
 
 // samplers/zerotwosequence.cpp*
-#include "samplers/zerotwosequence.h"
+#include "zerotwosequence.h"
 #include "lowdiscrepancy.h"
 #include "paramset.h"
 #include "stats.h"

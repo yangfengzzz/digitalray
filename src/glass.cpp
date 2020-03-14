@@ -32,7 +32,7 @@
 
 
 // materials/glass.cpp*
-#include "materials/glass.h"
+#include "glass.h"
 #include "spectrum.h"
 #include "reflection.h"
 #include "paramset.h"

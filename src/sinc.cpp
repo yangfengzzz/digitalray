@@ -32,7 +32,7 @@
 
 
 // filters/sinc.cpp*
-#include "filters/sinc.h"
+#include "sinc.h"
 #include "paramset.h"
 
 namespace pbrt {

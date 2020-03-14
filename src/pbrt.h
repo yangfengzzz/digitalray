@@ -90,6 +90,7 @@
 // Global Macros
 #define ALLOCA(TYPE, COUNT) (TYPE *) alloca((COUNT) * sizeof(TYPE))
 
+#include "builderSettings.h"
 namespace pbrt {
 
 // Global Forward Declarations

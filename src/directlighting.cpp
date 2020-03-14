@@ -32,7 +32,7 @@
 
 
 // integrators/directlighting.cpp*
-#include "integrators/directlighting.h"
+#include "directlighting.h"
 #include "interaction.h"
 #include "paramset.h"
 #include "camera.h"

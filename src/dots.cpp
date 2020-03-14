@@ -32,7 +32,7 @@
 
 
 // textures/dots.cpp*
-#include "textures/dots.h"
+#include "dots.h"
 
 namespace pbrt {
 

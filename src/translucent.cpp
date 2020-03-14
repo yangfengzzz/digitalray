@@ -32,7 +32,7 @@
 
 
 // materials/translucent.cpp*
-#include "materials/translucent.h"
+#include "translucent.h"
 #include "spectrum.h"
 #include "reflection.h"
 #include "paramset.h"

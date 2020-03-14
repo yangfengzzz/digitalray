@@ -32,7 +32,7 @@
 
 
 // materials/metal.cpp*
-#include "materials/metal.h"
+#include "metal.h"
 #include "reflection.h"
 #include "paramset.h"
 #include "texture.h"

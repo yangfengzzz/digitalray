@@ -32,7 +32,7 @@
 
 
 // accelerators/bvh.cpp*
-#include "accelerators/bvh.h"
+#include "bvh.h"
 #include "interaction.h"
 #include "paramset.h"
 #include "stats.h"

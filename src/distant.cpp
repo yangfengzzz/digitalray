@@ -32,7 +32,7 @@
 
 
 // lights/distant.cpp*
-#include "lights/distant.h"
+#include "distant.h"
 #include "paramset.h"
 #include "sampling.h"
 #include "stats.h"

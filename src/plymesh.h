@@ -39,7 +39,7 @@
 #define PBRT_SHAPES_PLYMESH_H
 
 // shapes/plymesh.h*
-#include "shapes/triangle.h"
+#include "triangle.h"
 
 namespace pbrt {
 

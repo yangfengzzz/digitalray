@@ -32,7 +32,7 @@
 
 
 // filters/gaussian.cpp*
-#include "filters/gaussian.h"
+#include "gaussian.h"
 #include "paramset.h"
 
 namespace pbrt {

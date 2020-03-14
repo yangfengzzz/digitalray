@@ -31,7 +31,7 @@
  */
 
 // cameras/realistic.cpp*
-#include "cameras/realistic.h"
+#include "realistic.h"
 #include "paramset.h"
 #include "sampler.h"
 #include "sampling.h"

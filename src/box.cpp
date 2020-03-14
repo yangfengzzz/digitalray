@@ -32,7 +32,7 @@
 
 
 // filters/box.cpp*
-#include "filters/box.h"
+#include "box.h"
 #include "paramset.h"
 
 namespace pbrt {

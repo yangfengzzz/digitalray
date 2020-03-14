@@ -34,13 +34,13 @@
 #include <array>
 #include <numeric>
 #include "interaction.h"
-#include "materials/hair.h"
+#include "hair.h"
 #include "paramset.h"
 #include "reflection.h"
 #include "sampling.h"
 #include "spectrum.h"
 #include "texture.h"
-#include "textures/constant.h"
+#include "constant.h"
 
 namespace pbrt {
 

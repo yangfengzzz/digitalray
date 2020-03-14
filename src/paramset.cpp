@@ -34,7 +34,7 @@
 // core/paramset.cpp*
 #include "paramset.h"
 #include "floatfile.h"
-#include "textures/constant.h"
+#include "constant.h"
 
 namespace pbrt {
 

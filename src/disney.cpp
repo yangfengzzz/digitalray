@@ -48,7 +48,7 @@ licensed under a slightly-modified Apache 2.0 license.
 */
 
 // materials/disney.cpp*
-#include "materials/disney.h"
+#include "disney.h"
 #include "bssrdf.h"
 #include "interaction.h"
 #include "paramset.h"

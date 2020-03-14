@@ -32,8 +32,8 @@
 
 
 // materials/kdsubsurface.cpp*
-#include "materials/kdsubsurface.h"
-#include "textures/constant.h"
+#include "kdsubsurface.h"
+#include "constant.h"
 #include "spectrum.h"
 #include "texture.h"
 #include "paramset.h"

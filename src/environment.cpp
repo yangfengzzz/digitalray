@@ -32,7 +32,7 @@
 
 
 // cameras/environment.cpp*
-#include "cameras/environment.h"
+#include "environment.h"
 #include "paramset.h"
 #include "sampler.h"
 #include "stats.h"

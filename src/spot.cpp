@@ -32,7 +32,7 @@
 
 
 // lights/spot.cpp*
-#include "lights/spot.h"
+#include "spot.h"
 #include "paramset.h"
 #include "sampling.h"
 #include "reflection.h"

@@ -32,7 +32,7 @@
 
 
 // samplers/sobol.cpp*
-#include "samplers/sobol.h"
+#include "sobol.h"
 #include "lowdiscrepancy.h"
 #include "paramset.h"
 

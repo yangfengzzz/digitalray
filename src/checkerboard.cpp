@@ -32,7 +32,7 @@
 
 
 // textures/checkerboard.cpp*
-#include "textures/checkerboard.h"
+#include "checkerboard.h"
 
 namespace pbrt {
 

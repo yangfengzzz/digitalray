@@ -32,7 +32,7 @@
 
 
 // textures/bilerp.cpp*
-#include "textures/bilerp.h"
+#include "bilerp.h"
 
 namespace pbrt {
 

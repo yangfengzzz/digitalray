@@ -31,10 +31,10 @@
  */
 
 // lights/diffuse.cpp*
-#include "lights/diffuse.h"
+#include "diffuse.h"
 #include "paramset.h"
 #include "sampling.h"
-#include "shapes/triangle.h"
+#include "triangle.h"
 #include "stats.h"
 
 namespace pbrt {

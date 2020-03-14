@@ -32,7 +32,7 @@
 
 
 // shapes/disk.cpp*
-#include "shapes/disk.h"
+#include "disk.h"
 #include "paramset.h"
 #include "sampling.h"
 #include "stats.h"

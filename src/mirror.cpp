@@ -32,7 +32,7 @@
 
 
 // materials/mirror.cpp*
-#include "materials/mirror.h"
+#include "mirror.h"
 #include "spectrum.h"
 #include "reflection.h"
 #include "paramset.h"

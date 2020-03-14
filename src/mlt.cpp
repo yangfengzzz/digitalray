@@ -32,15 +32,15 @@
 
 
 // integrators/mlt.cpp*
-#include "integrators/mlt.h"
-#include "integrators/bdpt.h"
+#include "mlt.h"
+#include "bdpt.h"
 #include "scene.h"
 #include "film.h"
 #include "sampler.h"
 #include "integrator.h"
 #include "camera.h"
 #include "stats.h"
-#include "filters/box.h"
+#include "box.h"
 #include "paramset.h"
 #include "sampling.h"
 #include "progressreporter.h"

@@ -32,7 +32,7 @@
 
 
 // cameras/orthographic.cpp*
-#include "cameras/orthographic.h"
+#include "orthographic.h"
 #include "paramset.h"
 #include "sampler.h"
 #include "sampling.h"

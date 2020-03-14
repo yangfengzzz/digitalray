@@ -32,7 +32,7 @@
 
 
 // shapes/hyperboloid.cpp*
-#include "shapes/hyperboloid.h"
+#include "hyperboloid.h"
 #include "paramset.h"
 #include "efloat.h"
 #include "stats.h"

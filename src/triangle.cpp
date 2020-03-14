@@ -31,13 +31,13 @@
  */
 
 // shapes/triangle.cpp*
-#include "shapes/triangle.h"
+#include "triangle.h"
 #include "texture.h"
-#include "textures/constant.h"
+#include "constant.h"
 #include "paramset.h"
 #include "sampling.h"
 #include "efloat.h"
-#include "ext/rply.h"
+#include "rply.h"
 #include <array>
 
 namespace pbrt {

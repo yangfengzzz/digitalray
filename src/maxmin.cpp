@@ -32,7 +32,7 @@
 
 
 // samplers/maxmin.cpp*
-#include "samplers/maxmin.h"
+#include "maxmin.h"
 #include "paramset.h"
 #include "stats.h"
 

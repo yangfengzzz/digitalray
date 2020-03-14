@@ -32,7 +32,7 @@
 
 
 // accelerators/kdtreeaccel.cpp*
-#include "accelerators/kdtreeaccel.h"
+#include "kdtreeaccel.h"
 #include "paramset.h"
 #include "interaction.h"
 #include "stats.h"

@@ -32,7 +32,7 @@
 
 
 // materials/plastic.cpp*
-#include "materials/plastic.h"
+#include "plastic.h"
 #include "spectrum.h"
 #include "reflection.h"
 #include "paramset.h"

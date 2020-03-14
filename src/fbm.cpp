@@ -32,7 +32,7 @@
 
 
 // textures/fbm.cpp*
-#include "textures/fbm.h"
+#include "fbm.h"
 
 namespace pbrt {
 

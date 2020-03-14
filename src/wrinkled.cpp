@@ -32,7 +32,7 @@
 
 
 // textures/wrinkled.cpp*
-#include "textures/wrinkled.h"
+#include "wrinkled.h"
 
 namespace pbrt {
 

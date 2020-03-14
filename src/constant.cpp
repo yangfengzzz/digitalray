@@ -32,7 +32,7 @@
 
 
 // textures/constant.cpp*
-#include "textures/constant.h"
+#include "constant.h"
 
 namespace pbrt {
 

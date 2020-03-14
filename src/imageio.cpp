@@ -32,8 +32,8 @@
 
 // core/imageio.cpp*
 #include "imageio.h"
-#include "ext/lodepng.h"
-#include "ext/targa.h"
+#include "lodepng.h"
+#include "targa.h"
 #include "fileutil.h"
 #include "spectrum.h"
 

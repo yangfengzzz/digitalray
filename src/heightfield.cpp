@@ -32,8 +32,8 @@
 
 
 // shapes/heightfield.cpp*
-#include "shapes/heightfield.h"
-#include "shapes/triangle.h"
+#include "heightfield.h"
+#include "triangle.h"
 #include "paramset.h"
 
 namespace pbrt {

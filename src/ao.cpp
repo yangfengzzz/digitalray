@@ -31,7 +31,7 @@
  */
 
 // integrators/ao.cpp*
-#include "integrators/ao.h"
+#include "ao.h"
 #include "sampling.h"
 #include "interaction.h"
 #include "paramset.h"

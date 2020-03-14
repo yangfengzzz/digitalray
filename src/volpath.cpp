@@ -31,7 +31,7 @@
  */
 
 // integrators/volpath.cpp*
-#include "integrators/volpath.h"
+#include "volpath.h"
 #include "bssrdf.h"
 #include "camera.h"
 #include "film.h"

@@ -32,7 +32,7 @@
 
 
 // textures/marble.cpp*
-#include "textures/marble.h"
+#include "marble.h"
 
 namespace pbrt {
 

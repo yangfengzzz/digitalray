@@ -32,7 +32,7 @@
 
 
 // integrators/sppm.cpp*
-#include "integrators/sppm.h"
+#include "sppm.h"
 #include "parallel.h"
 #include "scene.h"
 #include "imageio.h"
@@ -42,7 +42,7 @@
 #include "progressreporter.h"
 #include "interaction.h"
 #include "sampling.h"
-#include "samplers/halton.h"
+#include "halton.h"
 #include "stats.h"
 
 namespace pbrt {

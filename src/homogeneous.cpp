@@ -32,7 +32,7 @@
 
 
 // media/homogeneous.cpp*
-#include "media/homogeneous.h"
+#include "homogeneous.h"
 #include "sampler.h"
 #include "interaction.h"
 #include "paramset.h"

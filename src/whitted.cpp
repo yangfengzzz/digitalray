@@ -32,7 +32,7 @@
 
 
 // integrators/whitted.cpp*
-#include "integrators/whitted.h"
+#include "whitted.h"
 #include "interaction.h"
 #include "camera.h"
 #include "film.h"

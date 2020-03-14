@@ -31,7 +31,7 @@
  */
 
 // lights/infinite.cpp*
-#include "lights/infinite.h"
+#include "infinite.h"
 #include "imageio.h"
 #include "paramset.h"
 #include "sampling.h"

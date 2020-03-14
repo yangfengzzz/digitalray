@@ -32,7 +32,7 @@
 
 
 // shapes/paraboloid.cpp*
-#include "shapes/paraboloid.h"
+#include "paraboloid.h"
 #include "paramset.h"
 #include "efloat.h"
 #include "stats.h"

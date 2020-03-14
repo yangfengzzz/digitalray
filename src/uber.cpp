@@ -32,7 +32,7 @@
 
 
 // materials/uber.cpp*
-#include "materials/uber.h"
+#include "uber.h"
 #include "spectrum.h"
 #include "reflection.h"
 #include "texture.h"

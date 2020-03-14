@@ -32,7 +32,7 @@
 
 
 // textures/windy.cpp*
-#include "textures/windy.h"
+#include "windy.h"
 
 namespace pbrt {
 

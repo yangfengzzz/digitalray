@@ -32,7 +32,7 @@
 
 
 // materials/matte.cpp*
-#include "materials/matte.h"
+#include "matte.h"
 #include "paramset.h"
 #include "reflection.h"
 #include "interaction.h"

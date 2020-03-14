@@ -32,7 +32,7 @@
 
 
 // lights/projection.cpp*
-#include "lights/projection.h"
+#include "projection.h"
 #include "sampling.h"
 #include "paramset.h"
 #include "imageio.h"

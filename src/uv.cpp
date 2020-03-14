@@ -32,7 +32,7 @@
 
 
 // textures/uv.cpp*
-#include "textures/uv.h"
+#include "uv.h"
 
 namespace pbrt {
 

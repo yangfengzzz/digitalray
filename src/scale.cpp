@@ -32,7 +32,7 @@
 
 
 // textures/scale.cpp*
-#include "textures/scale.h"
+#include "scale.h"
 
 namespace pbrt {
 

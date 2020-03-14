@@ -32,7 +32,7 @@
 
 
 // lights/goniometric.cpp*
-#include "lights/goniometric.h"
+#include "goniometric.h"
 #include "paramset.h"
 #include "sampling.h"
 #include "stats.h"

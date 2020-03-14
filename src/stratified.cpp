@@ -32,7 +32,7 @@
 
 
 // samplers/stratified.cpp*
-#include "samplers/stratified.h"
+#include "stratified.h"
 #include "paramset.h"
 #include "sampling.h"
 #include "stats.h"

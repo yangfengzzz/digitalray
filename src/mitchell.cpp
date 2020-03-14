@@ -32,7 +32,7 @@
 
 
 // filters/mitchell.cpp*
-#include "filters/mitchell.h"
+#include "mitchell.h"
 #include "paramset.h"
 
 namespace pbrt {

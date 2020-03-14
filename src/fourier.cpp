@@ -31,7 +31,7 @@
  */
 
 // materials/fourier.cpp*
-#include "materials/fourier.h"
+#include "fourier.h"
 #include "interaction.h"
 #include "paramset.h"
 

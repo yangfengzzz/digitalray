@@ -31,7 +31,7 @@
  */
 
 // textures/ptex.cpp*
-#include "textures/ptex.h"
+#include "ptex.h"
 
 #include "error.h"
 #include "interaction.h"

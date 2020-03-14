@@ -32,8 +32,8 @@
 
 
 // shapes/nurbs.cpp*
-#include "shapes/nurbs.h"
-#include "shapes/triangle.h"
+#include "nurbs.h"
+#include "triangle.h"
 #include "paramset.h"
 #include "texture.h"
 
