@@ -243,6 +243,25 @@
 		04FAB58C241C70EE001A8566 /* libsrc.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FAB31E241C6563001A8566 /* libsrc.dylib */; };
 		04FAB594241C716C001A8566 /* ArHosekSkyModel.c in Sources */ = {isa = PBXBuildFile; fileRef = 04FAB58F241C716C001A8566 /* ArHosekSkyModel.c */; };
 		04FAB597241C7199001A8566 /* obj2pbrt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04FAB584241C70DE001A8566 /* obj2pbrt.cpp */; };
+		04FAB5B5241C7319001A8566 /* analytic_scenes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04FAB5B2241C7200001A8566 /* analytic_scenes.cpp */; };
+		04FAB5B8241C736F001A8566 /* libsrc.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FAB31E241C6563001A8566 /* libsrc.dylib */; };
+		04FAB5B9241C738E001A8566 /* animatedtransform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04FAB5B1241C7200001A8566 /* animatedtransform.cpp */; };
+		04FAB5BA241C738E001A8566 /* bitops.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04FAB5A7241C71FF001A8566 /* bitops.cpp */; };
+		04FAB5BB241C738E001A8566 /* bounds.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04FAB5A6241C71FF001A8566 /* bounds.cpp */; };
+		04FAB5BC241C738E001A8566 /* bsdfs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04FAB5AA241C7200001A8566 /* bsdfs.cpp */; };
+		04FAB5BD241C738E001A8566 /* fileutil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04FAB5AF241C7200001A8566 /* fileutil.cpp */; };
+		04FAB5BE241C738E001A8566 /* find_interval.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04FAB5AB241C7200001A8566 /* find_interval.cpp */; };
+		04FAB5BF241C738E001A8566 /* fourierbsdf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04FAB5AD241C7200001A8566 /* fourierbsdf.cpp */; };
+		04FAB5C0241C738E001A8566 /* fp_tests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04FAB5A3241C71FF001A8566 /* fp_tests.cpp */; };
+		04FAB5C1241C7398001A8566 /* hair.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04FAB5A4241C71FF001A8566 /* hair.cpp */; };
+		04FAB5C2241C7398001A8566 /* hg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04FAB5A5241C71FF001A8566 /* hg.cpp */; };
+		04FAB5C3241C7398001A8566 /* imageio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04FAB5AE241C7200001A8566 /* imageio.cpp */; };
+		04FAB5C4241C7398001A8566 /* parallel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04FAB5B3241C7200001A8566 /* parallel.cpp */; };
+		04FAB5C5241C7398001A8566 /* parser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04FAB5B4241C7200001A8566 /* parser.cpp */; };
+		04FAB5C6241C7398001A8566 /* print.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04FAB5A9241C7200001A8566 /* print.cpp */; };
+		04FAB5C7241C7398001A8566 /* sampling.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04FAB5B0241C7200001A8566 /* sampling.cpp */; };
+		04FAB5C8241C7398001A8566 /* shapes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04FAB5AC241C7200001A8566 /* shapes.cpp */; };
+		04FAB5C9241C7398001A8566 /* spectrum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04FAB5A8241C71FF001A8566 /* spectrum.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -254,6 +273,13 @@
 			remoteInfo = src;
 		};
 		04FAB58A241C70EB001A8566 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04FAB308241C6441001A8566 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04FAB31D241C6563001A8566;
+			remoteInfo = src;
+		};
+		04FAB5B6241C736B001A8566 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 04FAB308241C6441001A8566 /* Project object */;
 			proxyType = 1;
@@ -274,6 +300,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		04FAB578241C70CA001A8566 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		04FAB59A241C71D5001A8566 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -529,6 +564,25 @@
 		04FAB591241C716C001A8566 /* ArHosekSkyModelData_Spectral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArHosekSkyModelData_Spectral.h; path = ../ext/ArHosekSkyModelData_Spectral.h; sourceTree = "<group>"; };
 		04FAB592241C716C001A8566 /* ArHosekSkyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArHosekSkyModel.h; path = ../ext/ArHosekSkyModel.h; sourceTree = "<group>"; };
 		04FAB593241C716C001A8566 /* ArHosekSkyModelData_CIEXYZ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArHosekSkyModelData_CIEXYZ.h; path = ../ext/ArHosekSkyModelData_CIEXYZ.h; sourceTree = "<group>"; };
+		04FAB59C241C71D5001A8566 /* unittests */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = unittests; sourceTree = BUILT_PRODUCTS_DIR; };
+		04FAB5A3241C71FF001A8566 /* fp_tests.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fp_tests.cpp; sourceTree = "<group>"; };
+		04FAB5A4241C71FF001A8566 /* hair.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = hair.cpp; sourceTree = "<group>"; };
+		04FAB5A5241C71FF001A8566 /* hg.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = hg.cpp; sourceTree = "<group>"; };
+		04FAB5A6241C71FF001A8566 /* bounds.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bounds.cpp; sourceTree = "<group>"; };
+		04FAB5A7241C71FF001A8566 /* bitops.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bitops.cpp; sourceTree = "<group>"; };
+		04FAB5A8241C71FF001A8566 /* spectrum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = spectrum.cpp; sourceTree = "<group>"; };
+		04FAB5A9241C7200001A8566 /* print.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = print.cpp; sourceTree = "<group>"; };
+		04FAB5AA241C7200001A8566 /* bsdfs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bsdfs.cpp; sourceTree = "<group>"; };
+		04FAB5AB241C7200001A8566 /* find_interval.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = find_interval.cpp; sourceTree = "<group>"; };
+		04FAB5AC241C7200001A8566 /* shapes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = shapes.cpp; sourceTree = "<group>"; };
+		04FAB5AD241C7200001A8566 /* fourierbsdf.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fourierbsdf.cpp; sourceTree = "<group>"; };
+		04FAB5AE241C7200001A8566 /* imageio.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = imageio.cpp; sourceTree = "<group>"; };
+		04FAB5AF241C7200001A8566 /* fileutil.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fileutil.cpp; sourceTree = "<group>"; };
+		04FAB5B0241C7200001A8566 /* sampling.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sampling.cpp; sourceTree = "<group>"; };
+		04FAB5B1241C7200001A8566 /* animatedtransform.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = animatedtransform.cpp; sourceTree = "<group>"; };
+		04FAB5B2241C7200001A8566 /* analytic_scenes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = analytic_scenes.cpp; sourceTree = "<group>"; };
+		04FAB5B3241C7200001A8566 /* parallel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = parallel.cpp; sourceTree = "<group>"; };
+		04FAB5B4241C7200001A8566 /* parser.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = parser.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -555,6 +609,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		04FAB599241C71D5001A8566 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FAB5B8241C736F001A8566 /* libsrc.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -564,6 +626,7 @@
 				04FAB31F241C6563001A8566 /* src */,
 				04FAB312241C6441001A8566 /* digitalRay */,
 				04FAB57B241C70CA001A8566 /* tools */,
+				04FAB59D241C71D5001A8566 /* unittests */,
 				04FAB311241C6441001A8566 /* Products */,
 				04FAB574241C7098001A8566 /* Frameworks */,
 			);
@@ -575,6 +638,7 @@
 				04FAB310241C6441001A8566 /* digitalRay */,
 				04FAB31E241C6563001A8566 /* libsrc.dylib */,
 				04FAB57A241C70CA001A8566 /* tools */,
+				04FAB59C241C71D5001A8566 /* unittests */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -939,6 +1003,32 @@
 			name = base;
 			sourceTree = "<group>";
 		};
+		04FAB59D241C71D5001A8566 /* unittests */ = {
+			isa = PBXGroup;
+			children = (
+				04FAB5B2241C7200001A8566 /* analytic_scenes.cpp */,
+				04FAB5B1241C7200001A8566 /* animatedtransform.cpp */,
+				04FAB5A7241C71FF001A8566 /* bitops.cpp */,
+				04FAB5A6241C71FF001A8566 /* bounds.cpp */,
+				04FAB5AA241C7200001A8566 /* bsdfs.cpp */,
+				04FAB5AF241C7200001A8566 /* fileutil.cpp */,
+				04FAB5AB241C7200001A8566 /* find_interval.cpp */,
+				04FAB5AD241C7200001A8566 /* fourierbsdf.cpp */,
+				04FAB5A3241C71FF001A8566 /* fp_tests.cpp */,
+				04FAB5A4241C71FF001A8566 /* hair.cpp */,
+				04FAB5A5241C71FF001A8566 /* hg.cpp */,
+				04FAB5AE241C7200001A8566 /* imageio.cpp */,
+				04FAB5B3241C7200001A8566 /* parallel.cpp */,
+				04FAB5B4241C7200001A8566 /* parser.cpp */,
+				04FAB5A9241C7200001A8566 /* print.cpp */,
+				04FAB5B0241C7200001A8566 /* sampling.cpp */,
+				04FAB5AC241C7200001A8566 /* shapes.cpp */,
+				04FAB5A8241C71FF001A8566 /* spectrum.cpp */,
+			);
+			name = unittests;
+			path = ../unit_tests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -1123,6 +1213,24 @@
 			productReference = 04FAB57A241C70CA001A8566 /* tools */;
 			productType = "com.apple.product-type.tool";
 		};
+		04FAB59B241C71D5001A8566 /* unittests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04FAB5A0241C71D5001A8566 /* Build configuration list for PBXNativeTarget "unittests" */;
+			buildPhases = (
+				04FAB598241C71D5001A8566 /* Sources */,
+				04FAB599241C71D5001A8566 /* Frameworks */,
+				04FAB59A241C71D5001A8566 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04FAB5B7241C736B001A8566 /* PBXTargetDependency */,
+			);
+			name = unittests;
+			productName = unittests;
+			productReference = 04FAB59C241C71D5001A8566 /* unittests */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1139,6 +1247,9 @@
 						CreatedOnToolsVersion = 11.3.1;
 					};
 					04FAB579241C70CA001A8566 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					04FAB59B241C71D5001A8566 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
 				};
@@ -1159,6 +1270,7 @@
 				04FAB31D241C6563001A8566 /* src */,
 				04FAB30F241C6441001A8566 /* digitalRay */,
 				04FAB579241C70CA001A8566 /* tools */,
+				04FAB59B241C71D5001A8566 /* unittests */,
 			);
 		};
 /* End PBXProject section */
@@ -1301,6 +1413,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		04FAB598241C71D5001A8566 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FAB5C9241C7398001A8566 /* spectrum.cpp in Sources */,
+				04FAB5C5241C7398001A8566 /* parser.cpp in Sources */,
+				04FAB5B5241C7319001A8566 /* analytic_scenes.cpp in Sources */,
+				04FAB5C4241C7398001A8566 /* parallel.cpp in Sources */,
+				04FAB5BC241C738E001A8566 /* bsdfs.cpp in Sources */,
+				04FAB5BA241C738E001A8566 /* bitops.cpp in Sources */,
+				04FAB5C6241C7398001A8566 /* print.cpp in Sources */,
+				04FAB5C1241C7398001A8566 /* hair.cpp in Sources */,
+				04FAB5BF241C738E001A8566 /* fourierbsdf.cpp in Sources */,
+				04FAB5C7241C7398001A8566 /* sampling.cpp in Sources */,
+				04FAB5BE241C738E001A8566 /* find_interval.cpp in Sources */,
+				04FAB5BB241C738E001A8566 /* bounds.cpp in Sources */,
+				04FAB5C2241C7398001A8566 /* hg.cpp in Sources */,
+				04FAB5B9241C738E001A8566 /* animatedtransform.cpp in Sources */,
+				04FAB5BD241C738E001A8566 /* fileutil.cpp in Sources */,
+				04FAB5C8241C7398001A8566 /* shapes.cpp in Sources */,
+				04FAB5C0241C738E001A8566 /* fp_tests.cpp in Sources */,
+				04FAB5C3241C7398001A8566 /* imageio.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -1313,6 +1450,11 @@
 			isa = PBXTargetDependency;
 			target = 04FAB31D241C6563001A8566 /* src */;
 			targetProxy = 04FAB58A241C70EB001A8566 /* PBXContainerItemProxy */;
+		};
+		04FAB5B7241C736B001A8566 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04FAB31D241C6563001A8566 /* src */;
+			targetProxy = 04FAB5B6241C736B001A8566 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1542,6 +1684,46 @@
 			};
 			name = Release;
 		};
+		04FAB5A1241C71D5001A8566 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					../ext/gtest/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					../external/gtest,
+					/usr/local/lib,
+				);
+				OTHER_LDFLAGS = (
+					../ext/gtest/gtest_main.a,
+					"-lglog",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04FAB5A2241C71D5001A8566 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					../ext/gtest/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					../external/gtest,
+					/usr/local/lib,
+				);
+				OTHER_LDFLAGS = (
+					../ext/gtest/gtest_main.a,
+					"-lglog",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1577,6 +1759,15 @@
 			buildConfigurations = (
 				04FAB57F241C70CA001A8566 /* Debug */,
 				04FAB580241C70CA001A8566 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04FAB5A0241C71D5001A8566 /* Build configuration list for PBXNativeTarget "unittests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04FAB5A1241C71D5001A8566 /* Debug */,
+				04FAB5A2241C71D5001A8566 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
