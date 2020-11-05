@@ -31,7 +31,7 @@
  */
 
 // tests/hair.cpp*
-#include "../ext/gtest/include/gtest/gtest.h"
+#include <gtest/gtest.h>
 #include "../src/hair.h"
 #include "pbrt.h"
 #include "rng.h"

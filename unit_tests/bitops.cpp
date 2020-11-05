@@ -1,5 +1,5 @@
 
-#include "../ext/gtest/include/gtest/gtest.h"
+#include <gtest/gtest.h>
 #include <stdint.h>
 #include "pbrt.h"
 

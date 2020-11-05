@@ -1237,7 +1237,7 @@
 		04FAB308241C6441001A8566 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1130;
+				LastUpgradeCheck = 1210;
 				ORGANIZATIONNAME = "杨丰";
 				TargetAttributes = {
 					04FAB30F241C6441001A8566 = {
@@ -1485,6 +1485,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -1543,6 +1544,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -1571,6 +1573,7 @@
 		04FAB318241C6441001A8566 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				HEADER_SEARCH_PATHS = /usr/local/include;
 				LIBRARY_SEARCH_PATHS = /usr/local/lib;
@@ -1587,6 +1590,7 @@
 		04FAB319241C6441001A8566 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				HEADER_SEARCH_PATHS = /usr/local/include;
 				LIBRARY_SEARCH_PATHS = /usr/local/lib;
@@ -1655,6 +1659,7 @@
 		04FAB57F241C70CA001A8566 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				HEADER_SEARCH_PATHS = /usr/local/include;
 				LIBRARY_SEARCH_PATHS = /usr/local/lib;
@@ -1671,6 +1676,7 @@
 		04FAB580241C70CA001A8566 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				HEADER_SEARCH_PATHS = /usr/local/include;
 				LIBRARY_SEARCH_PATHS = /usr/local/lib;
@@ -1687,40 +1693,38 @@
 		04FAB5A1241C71D5001A8566 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
-				HEADER_SEARCH_PATHS = (
-					/usr/local/include,
-					../ext/gtest/include,
-				);
-				LIBRARY_SEARCH_PATHS = (
-					../external/gtest,
-					/usr/local/lib,
-				);
+				HEADER_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
 				OTHER_LDFLAGS = (
-					../ext/gtest/gtest_main.a,
+					"-lgmock",
+					"-lgtest",
+					"-lgtest_main",
+					"-lgmock_main",
 					"-lglog",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYSTEM_HEADER_SEARCH_PATHS = /usr/local/include;
 			};
 			name = Debug;
 		};
 		04FAB5A2241C71D5001A8566 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
-				HEADER_SEARCH_PATHS = (
-					/usr/local/include,
-					../ext/gtest/include,
-				);
-				LIBRARY_SEARCH_PATHS = (
-					../external/gtest,
-					/usr/local/lib,
-				);
+				HEADER_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
 				OTHER_LDFLAGS = (
-					../ext/gtest/gtest_main.a,
+					"-lgmock",
+					"-lgtest",
+					"-lgtest_main",
+					"-lgmock_main",
 					"-lglog",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYSTEM_HEADER_SEARCH_PATHS = /usr/local/include;
 			};
 			name = Release;
 		};

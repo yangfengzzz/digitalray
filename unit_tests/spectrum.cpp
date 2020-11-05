@@ -1,5 +1,5 @@
 
-#include "../ext/gtest/include/gtest/gtest.h"
+#include <gtest/gtest.h>
 #include "spectrum.h"
 #include "pbrt.h"
 #include "rng.h"
